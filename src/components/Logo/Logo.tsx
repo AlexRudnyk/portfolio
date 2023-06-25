@@ -1,6 +1,10 @@
 import React from "react";
-import { LogoContainer } from "./Logo.styled";
+import { LogoContainer, LogoLink } from "./Logo.styled";
 
 export const Logo: React.FC = () => {
-  return <LogoContainer>Logo</LogoContainer>;
+  return (
+    <LogoContainer>
+      <LogoLink to="/">AlexRudnyk</LogoLink>
+    </LogoContainer>
+  );
 };
