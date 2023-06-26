@@ -1,10 +1,17 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.566d496f.js",
+    "main.css": "/portfolio/static/css/main.00b60cee.css",
+    "main.js": "/portfolio/static/js/main.2a380883.js",
+    "static/media/programmers-and-cyber-security-technologies-design-websites_7997361_9299.jpg": "/portfolio/static/media/programmers-and-cyber-security-technologies-design-websites_7997361_9299.f344b3e72386f48afb93.jpg",
+    "static/media/digitization-5140071_1280.jpg": "/portfolio/static/media/digitization-5140071_1280.6db13b193502794797d6.jpg",
+    "static/media/photo_2023-06-26_08-56-00.jpg": "/portfolio/static/media/photo_2023-06-26_08-56-00.67b49b13233ce7fa2293.jpg",
+    "static/media/ArrowVector.svg": "/portfolio/static/media/ArrowVector.88d8c836f928921e7f384ff9a0b3bd8f.svg",
     "index.html": "/portfolio/index.html",
-    "main.566d496f.js.map": "/portfolio/static/js/main.566d496f.js.map"
+    "main.00b60cee.css.map": "/portfolio/static/css/main.00b60cee.css.map",
+    "main.2a380883.js.map": "/portfolio/static/js/main.2a380883.js.map"
   },
   "entrypoints": [
-    "static/js/main.566d496f.js"
+    "static/css/main.00b60cee.css",
+    "static/js/main.2a380883.js"
   ]
 }
