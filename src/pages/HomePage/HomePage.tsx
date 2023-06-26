@@ -7,6 +7,9 @@ import {
   ImgStyled,
   TitleStyled,
   TextStyled,
+  ArrowImg,
+  DiscoverWrapper,
+  DiscoverText,
 } from "./HomePage.styled";
 import myPhoto from "../../images/photo_2023-06-26_08-56-00.jpg";
 
@@ -14,6 +17,10 @@ export const HomePage: React.FC = () => {
   return (
     <HomePageSection>
       <HomePageContainer>
+        <DiscoverWrapper>
+          <ArrowImg />
+          <DiscoverText>Discover more...</DiscoverText>
+        </DiscoverWrapper>
         <ImgWrapper>
           <ImgStyled src={myPhoto} alt="developer" />
         </ImgWrapper>
