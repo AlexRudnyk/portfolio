@@ -21,7 +21,7 @@ export const HomePageContainer = styled.div`
 
 export const TitleWrapper = styled.div`
   background-color: white;
-  width: 360px;
+  width: 364px;
   border-radius: 10px;
   padding: 8px;
 `;
@@ -57,7 +57,7 @@ export const TitleStyled = styled.h1`
 
 export const TextStyled = styled.h2`
   font-size: 22px;
-  -webkit-animation: flicker-in-1 2s linear both;
+  /* -webkit-animation: flicker-in-1 2s linear both;
   animation: flicker-in-1 2s linear both;
   animation-delay: 3.5s;
 
@@ -250,9 +250,9 @@ export const TextStyled = styled.h2`
     100% {
       opacity: 1;
     }
-  }
+  } */
 
-  /* -webkit-animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation-delay: 4s;
 
@@ -277,7 +277,7 @@ export const TextStyled = styled.h2`
       transform: translateX(0);
       opacity: 1;
     }
-  } */
+  }
 `;
 
 export const DiscoverWrapper = styled.div`
