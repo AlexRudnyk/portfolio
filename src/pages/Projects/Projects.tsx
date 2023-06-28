@@ -1,6 +1,13 @@
 import React from "react";
-import { ProjectsContainer } from "./Projects.styled";
+import { ProjectsSection, ProjectsContainer } from "./Projects.styled";
+import { ProjectList } from "../../components/ProjectList";
 
 export const Projects: React.FC = () => {
-  return <ProjectsContainer>Projects</ProjectsContainer>;
+  return (
+    <ProjectsSection>
+      <ProjectsContainer>
+        <ProjectList />
+      </ProjectsContainer>
+    </ProjectsSection>
+  );
 };

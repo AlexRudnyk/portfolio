@@ -34,6 +34,10 @@ export const About: React.FC = () => {
             <AboutItemTitle>Work experience</AboutItemTitle>
             <p>Sales manager Telko Ukraine LLC,</p>
             <p>March 2011- present</p>
+            <p>
+              Polymer raw materials B2B sales. ExxonMobil and DuPont performance
+              plastics distribution and technical support of customers.
+            </p>
             <Achievements>Achievements:</Achievements>
             <p>
               Year to year sales growth. Successful developing of new specialty
