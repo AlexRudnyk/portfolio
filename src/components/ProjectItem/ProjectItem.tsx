@@ -4,6 +4,10 @@ import {
   ProjectItemImg,
   ProjectLinkBtn,
   BtnWrapper,
+  ProjectItemTitle,
+  ProjectLinkImg,
+  ProjectItemText,
+  ProjectDevText,
 } from "./ProjectItem.styled";
 
 interface IProps {
@@ -22,12 +26,16 @@ interface IProps {
 export const ProjectItem: React.FC<IProps> = ({ project }) => {
   return (
     <ProjectItemContainer>
-      <ProjectItemImg src={project.img} alt="wallet" />
-      <h3>{project.title}</h3>
-      <p>{project.dev}</p>
-      <p>{project.role}</p>
-      <p>{project.description}</p>
-      <p>{project.techs}</p>
+      <div>
+        <ProjectLinkImg href={project.demo} target="_blank" rel="noreferrer">
+          <ProjectItemImg src={project.img} alt="project outlook" />
+        </ProjectLinkImg>
+        <ProjectItemTitle>{project.title}</ProjectItemTitle>
+        <ProjectDevText>{project.dev}</ProjectDevText>
+        <ProjectItemText>{project.role}</ProjectItemText>
+        <ProjectItemText>{project.description}</ProjectItemText>
+        <ProjectItemText>{project.techs}</ProjectItemText>
+      </div>
       <BtnWrapper>
         <ProjectLinkBtn href={project.demo} target="_blank" rel="noreferrer">
           Demo

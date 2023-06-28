@@ -14,7 +14,7 @@ export const projectsList = [
     techs:
       "[JavaScript, React, Styled-components, Redux Toolkit, Figma, Responsive / Adaptive design, GitHub, Node.js, Express, Postman, Mongoose, MongoDB Compass, Vercel]",
     description:
-      "Suitable application for easy family budget management.General information about your transactions, doughnut diagramof your expenses and online currency exchange rates.",
+      "Suitable application for easy family budget management. General information about your transactions, doughnut diagram of your expenses and online currency exchange rates.",
     demo: "https://alexrudnyk.github.io/wallet/",
     code: "https://github.com/AlexRudnyk/wallet",
     delay: 0,
@@ -53,7 +53,7 @@ export const projectsList = [
     techs:
       "[HTML, SASS, JavaScript, Parcel, Figma, Trello, Responsive/Adaptive design, GitHub]",
     description:
-      "Online store IceCream provides irresistible and delicious products on the physical store and caters online ordering",
+      "Online store IceCream provides irresistible and delicious products on the physical store and caters online ordering.",
     demo: "https://alexrudnyk.github.io/ice-cream-project/",
     code: "https://github.com/AlexRudnyk/ice-cream-project",
     delay: 1.5,
