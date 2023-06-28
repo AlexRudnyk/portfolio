@@ -5,7 +5,7 @@ export const ProjectItemContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   height: 530px;
-  background-color: #ededed;
+  background-color: rgba(237, 237, 237, 0.9);
   padding: 20px;
   border-radius: 20px;
 `;

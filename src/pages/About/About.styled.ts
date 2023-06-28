@@ -27,7 +27,7 @@ export const AboutItem = styled.li`
   margin-top: 145px;
   text-align: justify;
   flex-basis: 33.333%;
-  background-color: #ededed;
+  background-color: rgba(237, 237, 237, 0.9);
   padding: 20px;
   border-radius: 30px;
 
