@@ -7,6 +7,8 @@ import {
   SkillsTitle,
   SkillsListItem,
   SkillsWrapper,
+  SkillsWrapperTwo,
+  SkillsWrapperThree,
   SkillsLanguage,
   CertificateImg,
 } from "./Skills.styled";
@@ -33,7 +35,7 @@ export const Skills: React.FC = () => {
             <SkillsListItem>Git/Git Hub</SkillsListItem>
           </SkillsList>
         </SkillsWrapper>
-        <SkillsWrapper>
+        <SkillsWrapperTwo>
           <SkillsTitle>Soft skills</SkillsTitle>
           <SkillsList>
             <SkillsListItem>Purposeful</SkillsListItem>
@@ -48,15 +50,15 @@ export const Skills: React.FC = () => {
             <SkillsListItem>Ukrainian - Native</SkillsListItem>
             <SkillsListItem>Russian - Native</SkillsListItem>
           </SkillsList>
-        </SkillsWrapper>
-        <SkillsWrapper>
+        </SkillsWrapperTwo>
+        <SkillsWrapperThree>
           <SkillsTitle>Certificates</SkillsTitle>
           <ul>
             <li>
               <CertificateImg src={certificate} alt="certificate" />
             </li>
           </ul>
-        </SkillsWrapper>
+        </SkillsWrapperThree>
       </SkillsContainer>
     </SkillsSection>
   );
