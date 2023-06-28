@@ -7,7 +7,7 @@ export const ProjectList: React.FC = () => {
   return (
     <ProjectContainer>
       {projectsList.map((project) => (
-        <ProjectListItem key={project.title}>
+        <ProjectListItem key={project.title} delay={project.delay}>
           <ProjectItem project={project} />
         </ProjectListItem>
       ))}
