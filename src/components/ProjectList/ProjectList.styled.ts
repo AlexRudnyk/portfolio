@@ -5,7 +5,7 @@ interface IProps {
 }
 
 export const ProjectContainer = styled.ul`
-  padding-top: 100px;
+  padding-top: 75px;
   display: flex;
   gap: 50px;
   flex-wrap: wrap;

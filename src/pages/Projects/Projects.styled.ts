@@ -3,7 +3,6 @@ import projectsImg from "../../images/binary-1536646_1280.jpg";
 
 export const ProjectsSection = styled.section`
   width: 100%;
-  /* height: 100vh; */
   background-image: url(${projectsImg});
   background-position: center;
   background-repeat: no-repeat;

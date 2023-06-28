@@ -12,11 +12,17 @@ export const ProjectItemContainer = styled.div`
 
 export const ProjectLinkImg = styled.a`
   display: block;
+  overflow: hidden;
 `;
 
 export const ProjectItemImg = styled.img`
   width: 100%;
   margin-bottom: 20px;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  &:hover {
+    transform: scale(1.1);
+  }
 `;
 
 export const ProjectItemTitle = styled.h3`
@@ -43,6 +49,12 @@ export const ProjectLinkBtn = styled.a`
 
   &:not(:last-child) {
     margin-right: 50px;
+  }
+
+  transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  &:hover {
+    transform: scale(1.1);
   }
 
   -webkit-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
