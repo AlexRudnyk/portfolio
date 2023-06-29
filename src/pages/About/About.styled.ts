@@ -17,7 +17,7 @@ export const AboutSection = styled.section`
 `;
 
 export const AboutContainer = styled.div`
-  width: 1280px;
+  /* width: 1280px; */
   margin-right: auto;
   margin-left: auto;
   padding: 20px 15px;
@@ -26,7 +26,7 @@ export const AboutContainer = styled.div`
     width: 738px;
   }
   @media screen and (min-width: 1280px) {
-    width: 1280px;
+    width: 1250px;
   }
 `;
 

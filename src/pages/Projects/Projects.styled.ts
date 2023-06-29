@@ -10,7 +10,7 @@ export const ProjectsSection = styled.section`
 `;
 
 export const ProjectsContainer = styled.div`
-  width: 1280px;
+  /* width: 1280px; */
   margin-right: auto;
   margin-left: auto;
   padding: 20px 15px;
@@ -19,6 +19,6 @@ export const ProjectsContainer = styled.div`
     width: 738px;
   }
   @media screen and (min-width: 1280px) {
-    width: 1280px;
+    width: 1250px;
   }
 `;
