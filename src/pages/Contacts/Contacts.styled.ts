@@ -9,20 +9,34 @@ import { ReactComponent as Github } from "../../images/github.svg";
 
 export const ContactsSection = styled.section`
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   background-image: url(${contactsImg});
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  @media screen and (min-width: 1280px) {
+    height: 100vh;
+  }
 `;
 
 export const ContactsContainer = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  width: 1280px;
+  align-items: center;
+  /* width: 1280px; */
   margin-right: auto;
   margin-left: auto;
   padding: 20px 15px;
+
+  @media screen and (min-width: 768px) {
+    width: 738px;
+  }
+  @media screen and (min-width: 1280px) {
+    flex-direction: row;
+    width: 1250px;
+  }
 `;
 
 export const ContactsWrapper = styled.div`
@@ -32,13 +46,20 @@ export const ContactsWrapper = styled.div`
   padding: 20px;
   border-radius: 20px;
 
-  &:not(:last-child) {
-    margin-right: 100px;
-  }
-
   -webkit-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1280px) {
+    height: 400px;
+
+    &:not(:last-child) {
+      margin-right: 100px;
+    }
+  }
 `;
 
 export const ContactsList = styled.ul``;
