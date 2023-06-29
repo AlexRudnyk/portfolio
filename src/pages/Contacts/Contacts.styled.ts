@@ -35,6 +35,10 @@ export const ContactsWrapper = styled.div`
   &:not(:last-child) {
     margin-right: 100px;
   }
+
+  -webkit-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
 `;
 
 export const ContactsList = styled.ul``;

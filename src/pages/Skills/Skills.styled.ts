@@ -53,6 +53,10 @@ export const SkillsWrapper = styled.div`
       opacity: 1;
     }
   }
+
+  -webkit-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
 `;
 
 export const SkillsWrapperTwo = styled(SkillsWrapper)`

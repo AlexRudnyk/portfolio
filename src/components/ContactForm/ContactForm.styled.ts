@@ -10,6 +10,10 @@ export const FormInput = styled.input`
   padding: 10px;
   border-radius: 5px;
   border: none;
+
+  -webkit-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
 `;
 
 export const FormLabel = styled.label`
@@ -23,6 +27,10 @@ export const FormTextarea = styled.textarea`
   border: none;
   margin-bottom: 20px;
   padding: 10px;
+
+  -webkit-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
 `;
 
 export const FormBtn = styled.input`
@@ -34,10 +42,15 @@ export const FormBtn = styled.input`
   color: white;
   background-color: blue;
   border-radius: 10px;
+  border: none;
 
   transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
   &:hover,
   &:focus {
     transform: scale(1.1);
   }
+
+  -webkit-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
 `;
