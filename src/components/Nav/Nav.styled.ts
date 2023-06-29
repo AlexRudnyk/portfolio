@@ -16,4 +16,9 @@ export const NavigationLink = styled(NavLink)`
   &:focus {
     color: blue;
   }
+
+  &.active {
+    font-weight: bold;
+    color: blue;
+  }
 `;
