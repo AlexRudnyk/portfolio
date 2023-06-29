@@ -68,30 +68,31 @@ export const AboutItem = styled.li`
   @media screen and (min-width: 1280px) {
     flex-basis: calc((100% - 2 * 30px) / 3);
 
-    -webkit-animation: roll-in-left 0.6s ease-out both;
-    animation: roll-in-left 0.6s ease-out both;
+    -webkit-animation: flip-in-ver-right 0.5s
+      cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: flip-in-ver-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 
-    @-webkit-keyframes roll-in-left {
+    @-webkit-keyframes flip-in-ver-right {
       0% {
-        -webkit-transform: translateX(-800px) rotate(-540deg);
-        transform: translateX(-800px) rotate(-540deg);
+        -webkit-transform: rotateY(-80deg);
+        transform: rotateY(-80deg);
         opacity: 0;
       }
       100% {
-        -webkit-transform: translateX(0) rotate(0deg);
-        transform: translateX(0) rotate(0deg);
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
         opacity: 1;
       }
     }
-    @keyframes roll-in-left {
+    @keyframes flip-in-ver-right {
       0% {
-        -webkit-transform: translateX(-800px) rotate(-540deg);
-        transform: translateX(-800px) rotate(-540deg);
+        -webkit-transform: rotateY(-80deg);
+        transform: rotateY(-80deg);
         opacity: 0;
       }
       100% {
-        -webkit-transform: translateX(0) rotate(0deg);
-        transform: translateX(0) rotate(0deg);
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
         opacity: 1;
       }
     }
