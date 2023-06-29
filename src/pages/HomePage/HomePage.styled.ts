@@ -22,7 +22,7 @@ export const HomePageContainer = styled.div`
     width: 738px;
   }
   @media screen and (min-width: 1280px) {
-    width: 1250px;
+    width: 1280px;
   }
 `;
 
