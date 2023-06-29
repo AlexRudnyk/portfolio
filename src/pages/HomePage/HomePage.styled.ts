@@ -17,6 +17,13 @@ export const HomePageContainer = styled.div`
   margin-right: auto;
   margin-left: auto;
   padding: 20px 15px;
+
+  @media screen and (min-width: 768px) {
+    width: 738px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 1250px;
+  }
 `;
 
 export const TitleWrapper = styled.div`
@@ -94,6 +101,13 @@ export const DiscoverWrapper = styled.div`
   position: absolute;
   top: 50px;
   right: 150px;
+
+  @media screen and (min-width: 768px) {
+    right: 100px;
+  }
+  @media screen and (min-width: 1280px) {
+    right: 150px;
+  }
 `;
 
 export const ArrowImg = styled(Arrow)`
@@ -127,6 +141,15 @@ export const ArrowImg = styled(Arrow)`
       filter: blur(0px);
       opacity: 1;
     }
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 120px;
+    height: 120px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 200px;
+    height: 200px;
   }
 `;
 
@@ -162,5 +185,12 @@ export const DiscoverText = styled.p`
       filter: blur(0px);
       opacity: 1;
     }
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 32px;
   }
 `;

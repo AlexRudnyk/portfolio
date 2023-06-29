@@ -21,4 +21,12 @@ export const HeaderContainer = styled.div`
   margin-right: auto;
   margin-left: auto;
   padding: 10px 15px;
+
+  @media screen and (min-width: 768px) {
+    width: 738px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 1250px;
+  }
 `;
