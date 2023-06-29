@@ -1,17 +1,34 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.00b60cee.css",
-    "main.js": "/portfolio/static/js/main.2a380883.js",
+    "main.js": "/portfolio/static/js/main.e9f10423.js",
+    "static/media/filmoteka.jpg": "/portfolio/static/media/filmoteka.4306d2f7e61f4e24d5b5.jpg",
+    "static/media/dogs.jpg": "/portfolio/static/media/dogs.a5f365d11f4a2c0d02a1.jpg",
+    "static/media/digitization-5140074_1280.jpg": "/portfolio/static/media/digitization-5140074_1280.681360c46e7a813cd92d.jpg",
     "static/media/programmers-and-cyber-security-technologies-design-websites_7997361_9299.jpg": "/portfolio/static/media/programmers-and-cyber-security-technologies-design-websites_7997361_9299.f344b3e72386f48afb93.jpg",
     "static/media/digitization-5140071_1280.jpg": "/portfolio/static/media/digitization-5140071_1280.6db13b193502794797d6.jpg",
+    "static/media/Oleksandr Rudnyk.jpg": "/portfolio/static/media/Oleksandr Rudnyk.abfb3f685e9478c4682d.jpg",
+    "static/media/portfolio.jpg": "/portfolio/static/media/portfolio.144540bd048c9bda9e65.jpg",
+    "static/media/icecream.jpg": "/portfolio/static/media/icecream.b5f8305efa3bfabf2d35.jpg",
+    "static/media/petly.jpg": "/portfolio/static/media/petly.11ec6c8f3191aff37fa8.jpg",
+    "static/media/web.jpg": "/portfolio/static/media/web.6779047749e5d523aa76.jpg",
+    "static/media/wallet.jpg": "/portfolio/static/media/wallet.208f52bc4673e1aca76d.jpg",
+    "static/media/todos.jpg": "/portfolio/static/media/todos.e0c99b6f7d33e628beac.jpg",
     "static/media/photo_2023-06-26_08-56-00.jpg": "/portfolio/static/media/photo_2023-06-26_08-56-00.67b49b13233ce7fa2293.jpg",
+    "static/media/binary-1536646_1280.jpg": "/portfolio/static/media/binary-1536646_1280.fc95dc9ee62820ab137a.jpg",
     "static/media/ArrowVector.svg": "/portfolio/static/media/ArrowVector.88d8c836f928921e7f384ff9a0b3bd8f.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.5531be85d7a8d6f333e5c7136944a022.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.273511fb10ee9bfadc8cf9a87d4279e0.svg",
     "index.html": "/portfolio/index.html",
+    "static/media/location.svg": "/portfolio/static/media/location.7a466643c28d773ec16bba1c5b00d5fe.svg",
+    "static/media/envelope.svg": "/portfolio/static/media/envelope.158fa89a6bb6567b8ae9e66d2e1d8517.svg",
+    "static/media/telegram.svg": "/portfolio/static/media/telegram.d32036e023ee7574bc705f27f6764a74.svg",
+    "static/media/mobile.svg": "/portfolio/static/media/mobile.cb87669713b24f4001474ef251cd8655.svg",
     "main.00b60cee.css.map": "/portfolio/static/css/main.00b60cee.css.map",
-    "main.2a380883.js.map": "/portfolio/static/js/main.2a380883.js.map"
+    "main.e9f10423.js.map": "/portfolio/static/js/main.e9f10423.js.map"
   },
   "entrypoints": [
     "static/css/main.00b60cee.css",
-    "static/js/main.2a380883.js"
+    "static/js/main.e9f10423.js"
   ]
 }
