@@ -64,9 +64,6 @@ export const AboutItem = styled.li`
     width: 500px;
     margin-right: auto;
     margin-left: auto;
-  }
-  @media screen and (min-width: 1280px) {
-    flex-basis: calc((100% - 2 * 30px) / 3);
 
     -webkit-animation: flip-in-ver-right 0.5s
       cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -96,6 +93,9 @@ export const AboutItem = styled.li`
         opacity: 1;
       }
     }
+  }
+  @media screen and (min-width: 1280px) {
+    flex-basis: calc((100% - 2 * 30px) / 3);
   }
 `;
 

@@ -45,6 +45,7 @@ export const ImgWrapper = styled.div`
 export const ImgStyled = styled.img`
   display: block;
   width: 380px;
+  height: 507px;
   border-radius: 30px;
 `;
 

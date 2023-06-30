@@ -49,6 +49,35 @@ export const SkillsWrapper = styled.div`
 
   @media screen and (min-width: 768px) {
     width: 500px;
+
+    -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+      both;
+    animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+
+    @-webkit-keyframes slide-in-left {
+      0% {
+        -webkit-transform: translateX(-1000px);
+        transform: translateX(-1000px);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+    @keyframes slide-in-left {
+      0% {
+        -webkit-transform: translateX(-1000px);
+        transform: translateX(-1000px);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
   }
   @media screen and (min-width: 1280px) {
     height: 520px;
