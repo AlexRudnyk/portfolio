@@ -7,11 +7,10 @@ interface IProps {
 export const ProjectContainer = styled.ul`
   padding-top: 75px;
   display: flex;
-  /* gap: 50px; */
+  gap: 30px;
   flex-wrap: wrap;
 
   @media screen and (min-width: 768px) {
-    gap: 30px;
   }
   @media screen and (min-width: 1280px) {
     gap: 50px;
@@ -20,6 +19,9 @@ export const ProjectContainer = styled.ul`
 
 export const ProjectListItem = styled.li<IProps>`
   /* flex-basis: calc((100% - 2 * 50px) / 3); */
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
 
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 1 * 30px) / 2);

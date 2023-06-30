@@ -17,7 +17,8 @@ export const SkillsSection = styled.section`
 export const SkillsContainer = styled.div`
   display: flex;
   flex-direction: column;
-  /* gap: 60px; */
+  align-items: center;
+  gap: 30px;
   /* width: 1280px; */
   margin-right: auto;
   margin-left: auto;
@@ -26,8 +27,6 @@ export const SkillsContainer = styled.div`
 
   @media screen and (min-width: 768px) {
     width: 738px;
-    gap: 30px;
-    align-items: center;
   }
   @media screen and (min-width: 1280px) {
     flex-direction: row;
@@ -39,7 +38,10 @@ export const SkillsContainer = styled.div`
 export const SkillsWrapper = styled.div`
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 30px;
-  /* width: 400px; */
+  width: calc(100% - 40px);
+  max-width: 410px;
+  /* margin-left: auto;
+  margin-right: auto; */
   /* flex-basis: calc((100% - 2 * 60px) / 3); */
   padding: 20px;
 
@@ -49,6 +51,8 @@ export const SkillsWrapper = styled.div`
 
   @media screen and (min-width: 768px) {
     width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 
     -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
       both;
@@ -128,9 +132,9 @@ export const SkillsTitle = styled.h3`
 
 export const SkillsLanguage = styled(SkillsTitle)`
   /* margin-top: 80px; */
+  margin-top: 40px;
 
   @media screen and (min-width: 768px) {
-    margin-top: 40px;
   }
   @media screen and (min-width: 1280px) {
     margin-top: 80px;

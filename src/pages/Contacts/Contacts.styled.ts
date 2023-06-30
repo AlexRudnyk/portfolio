@@ -23,7 +23,6 @@ export const ContactsSection = styled.section`
 export const ContactsContainer = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   /* width: 1280px; */
   margin-right: auto;
@@ -34,14 +33,18 @@ export const ContactsContainer = styled.div`
     width: 738px;
   }
   @media screen and (min-width: 1280px) {
-    flex-direction: row;
     width: 1250px;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 0;
+    margin-left: 0;
   }
 `;
 
 export const ContactsWrapper = styled.div`
   margin-top: 100px;
-  width: 400px;
+  width: calc(100% - 40px);
+  max-width: 410px;
   background-color: rgba(237, 237, 237, 0.9);
   padding: 20px;
   border-radius: 20px;
@@ -51,6 +54,7 @@ export const ContactsWrapper = styled.div`
   box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
 
   @media screen and (min-width: 768px) {
+    width: 400px;
   }
 
   @media screen and (min-width: 1280px) {
@@ -67,8 +71,12 @@ export const ContactsList = styled.ul``;
 export const ContactFormWrapper = styled.div``;
 
 export const ContactsTitle = styled.h3`
-  font-size: 30px;
+  font-size: 22px;
   margin-bottom: 50px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 30px;
+  }
 `;
 
 export const ContactsListItem = styled.li`
@@ -113,7 +121,7 @@ export const SvgGithub = styled(Github)`
 `;
 
 export const ContactsItemLink = styled.a`
-  display: block;
+  display: inline-block;
   font-size: 20px;
   color: inherit;
 

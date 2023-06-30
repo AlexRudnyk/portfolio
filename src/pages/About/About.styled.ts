@@ -17,7 +17,7 @@ export const AboutSection = styled.section`
 `;
 
 export const AboutContainer = styled.div`
-  /* width: 1280px; */
+  /* max-width: 450px; */
   margin-right: auto;
   margin-left: auto;
   padding: 20px 15px;
@@ -31,14 +31,13 @@ export const AboutContainer = styled.div`
 `;
 
 export const AboutList = styled.ul`
-  /* display: flex;
-  margin-top: 145px;
-  gap: 30px; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  gap: 30px;
 
   @media screen and (min-width: 768px) {
     display: flex;
-    flex-direction: column;
-    margin-top: 80px;
     gap: 30px;
   }
   @media screen and (min-width: 1280px) {
@@ -55,15 +54,19 @@ export const AboutItem = styled.li`
   background-color: rgba(237, 237, 237, 0.9);
   padding: 20px;
   border-radius: 30px;
+  margin-right: auto;
+  margin-left: auto;
 
   -webkit-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
 
+  @media screen and (max-width: 767.98px) {
+    max-width: 450px;
+  }
+
   @media screen and (min-width: 768px) {
     width: 500px;
-    margin-right: auto;
-    margin-left: auto;
 
     -webkit-animation: flip-in-ver-right 0.5s
       cubic-bezier(0.25, 0.46, 0.45, 0.94) both;

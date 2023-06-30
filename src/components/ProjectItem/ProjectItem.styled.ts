@@ -4,14 +4,19 @@ export const ProjectItemContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 530px;
+  /* height: 530px; */
   background-color: rgba(237, 237, 237, 0.9);
   padding: 20px;
   border-radius: 20px;
+  /* gap: 30px; */
 
   -webkit-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+
+  @media screen and (min-width: 768px) {
+    height: 530px;
+  }
 `;
 
 export const ProjectLinkImg = styled.a`
