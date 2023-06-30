@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.00b60cee.css",
-    "main.js": "/portfolio/static/js/main.216fa838.js",
+    "main.js": "/portfolio/static/js/main.95608905.js",
     "static/media/filmoteka.jpg": "/portfolio/static/media/filmoteka.4306d2f7e61f4e24d5b5.jpg",
     "static/media/dogs.jpg": "/portfolio/static/media/dogs.a5f365d11f4a2c0d02a1.jpg",
     "static/media/digitization-5140074_1280.jpg": "/portfolio/static/media/digitization-5140074_1280.681360c46e7a813cd92d.jpg",
@@ -23,12 +23,13 @@
     "static/media/location.svg": "/portfolio/static/media/location.7a466643c28d773ec16bba1c5b00d5fe.svg",
     "static/media/envelope.svg": "/portfolio/static/media/envelope.158fa89a6bb6567b8ae9e66d2e1d8517.svg",
     "static/media/telegram.svg": "/portfolio/static/media/telegram.d32036e023ee7574bc705f27f6764a74.svg",
+    "static/media/burger-menu-svgrepo-com.svg": "/portfolio/static/media/burger-menu-svgrepo-com.fc12fbd678bea2ce4ec9524cbe12a170.svg",
     "static/media/mobile.svg": "/portfolio/static/media/mobile.cb87669713b24f4001474ef251cd8655.svg",
     "main.00b60cee.css.map": "/portfolio/static/css/main.00b60cee.css.map",
-    "main.216fa838.js.map": "/portfolio/static/js/main.216fa838.js.map"
+    "main.95608905.js.map": "/portfolio/static/js/main.95608905.js.map"
   },
   "entrypoints": [
     "static/css/main.00b60cee.css",
-    "static/js/main.216fa838.js"
+    "static/js/main.95608905.js"
   ]
 }
