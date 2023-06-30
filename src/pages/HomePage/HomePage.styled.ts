@@ -14,7 +14,6 @@ export const HomePageSection = styled.section`
 
 export const HomePageContainer = styled.div`
   position: relative;
-  /* width: 1280px; */
   margin-right: auto;
   margin-left: auto;
   padding: 20px 15px;
@@ -33,7 +32,6 @@ export const HomePageContainer = styled.div`
 
 export const TitleWrapper = styled.div`
   background-color: white;
-  /* width: 364px; */
   border-radius: 10px;
   padding: 8px;
   margin-left: auto;
@@ -70,7 +68,6 @@ export const ImgWrapper = styled.div`
 export const ImgStyled = styled.img`
   display: block;
   width: 100%;
-  /* height: 507px; */
   border-radius: 30px;
 `;
 
@@ -81,7 +78,6 @@ export const TitleStyled = styled.h1`
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   animation: typing 3.5s steps(30, end);
 
-  /* The typing effect */
   @keyframes typing {
     from {
       width: 0;

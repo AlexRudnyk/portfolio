@@ -3,7 +3,6 @@ import aboutImg from "../../images/digitization-5140071_1280.jpg";
 
 export const AboutSection = styled.section`
   width: 100%;
-  /* height: 100vh; */
   background-image: url(${aboutImg});
   background-position: center;
   background-repeat: no-repeat;
@@ -17,7 +16,6 @@ export const AboutSection = styled.section`
 `;
 
 export const AboutContainer = styled.div`
-  /* max-width: 450px; */
   margin-right: auto;
   margin-left: auto;
   padding: 20px 15px;

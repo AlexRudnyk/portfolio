@@ -18,7 +18,6 @@ export const ProjectContainer = styled.ul`
 `;
 
 export const ProjectListItem = styled.li<IProps>`
-  /* flex-basis: calc((100% - 2 * 50px) / 3); */
   max-width: 450px;
   margin-left: auto;
   margin-right: auto;

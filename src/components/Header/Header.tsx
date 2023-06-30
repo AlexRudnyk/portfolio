@@ -42,25 +42,35 @@ export const Header: React.FC = () => {
                   </HeaderContainer>
                 </HeaderSection>
                 {open && (
-                  <Modal>
+                  <Modal open={open}>
                     <ModalCloseBtn type="button" onClick={handleModalToggle}>
                       X
                     </ModalCloseBtn>
                     <ModalList>
                       <ModalListItem>
-                        <ModalLink to="/home">Home</ModalLink>
+                        <ModalLink to="/home" onClick={handleModalToggle}>
+                          Home
+                        </ModalLink>
                       </ModalListItem>
                       <ModalListItem>
-                        <ModalLink to="/about">About</ModalLink>
+                        <ModalLink to="/about" onClick={handleModalToggle}>
+                          About
+                        </ModalLink>
                       </ModalListItem>
                       <ModalListItem>
-                        <ModalLink to="/projects">Projects</ModalLink>
+                        <ModalLink to="/projects" onClick={handleModalToggle}>
+                          Projects
+                        </ModalLink>
                       </ModalListItem>
                       <ModalListItem>
-                        <ModalLink to="/skills">Skills</ModalLink>
+                        <ModalLink to="/skills" onClick={handleModalToggle}>
+                          Skills
+                        </ModalLink>
                       </ModalListItem>
                       <ModalListItem>
-                        <ModalLink to="/contacts">Contacts</ModalLink>
+                        <ModalLink to="/contacts" onClick={handleModalToggle}>
+                          Contacts
+                        </ModalLink>
                       </ModalListItem>
                     </ModalList>
                   </Modal>

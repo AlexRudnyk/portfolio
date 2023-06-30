@@ -10,7 +10,6 @@ export const ProjectsSection = styled.section`
 `;
 
 export const ProjectsContainer = styled.div`
-  /* width: 1280px; */
   margin-right: auto;
   margin-left: auto;
   padding: 20px 15px;

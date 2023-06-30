@@ -9,7 +9,6 @@ import { ReactComponent as Github } from "../../images/github.svg";
 
 export const ContactsSection = styled.section`
   width: 100%;
-  /* height: 100vh; */
   background-image: url(${contactsImg});
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +23,6 @@ export const ContactsContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* width: 1280px; */
   margin-right: auto;
   margin-left: auto;
   padding: 20px 15px;

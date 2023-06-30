@@ -1,6 +1,10 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { ReactComponent as Burger } from "../../images/burger-menu-svgrepo-com.svg";
 import { Link } from "react-router-dom";
+
+interface IProps {
+  open: boolean;
+}
 
 export const HeaderSection = styled.section`
   position: fixed;
@@ -43,17 +47,25 @@ export const BurgerImg = styled(Burger)`
   height: 30px;
 `;
 
-export const Modal = styled.div`
+export const Modal = styled.div<IProps>`
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  /* top: 0;
-  left: 0; */
+  position: fixed;
+  top: 0;
   width: 100vw;
   height: 100vh;
   z-index: 1000;
   background-color: whitesmoke;
+
+  /* transform: translateX(-100%);
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  ${(props) =>
+    props.open &&
+    css`
+      transform: translateX(0);
+    `} */
 `;
 
 export const ModalCloseBtn = styled.button`
@@ -65,11 +77,26 @@ export const ModalCloseBtn = styled.button`
   border: none;
   border-radius: 50%;
   cursor: pointer;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+
+  -webkit-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+
+  transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+  }
 `;
 
 export const ModalList = styled.ul``;
 
 export const ModalListItem = styled.li`
+  padding: 6px;
+
   &:not(:last-child) {
     margin-bottom: 30px;
   }

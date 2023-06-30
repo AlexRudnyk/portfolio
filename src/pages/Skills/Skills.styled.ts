@@ -3,7 +3,6 @@ import skillsImg from "../../images/digitization-5140074_1280.jpg";
 
 export const SkillsSection = styled.section`
   width: 100%;
-  /* height: 100vh; */
   background-image: url(${skillsImg});
   background-position: center;
   background-repeat: no-repeat;
@@ -19,7 +18,6 @@ export const SkillsContainer = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  /* width: 1280px; */
   margin-right: auto;
   margin-left: auto;
   padding: 20px 15px;
@@ -40,9 +38,6 @@ export const SkillsWrapper = styled.div`
   border-radius: 30px;
   width: calc(100% - 40px);
   max-width: 410px;
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* flex-basis: calc((100% - 2 * 60px) / 3); */
   padding: 20px;
 
   -webkit-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
@@ -131,7 +126,6 @@ export const SkillsTitle = styled.h3`
 `;
 
 export const SkillsLanguage = styled(SkillsTitle)`
-  /* margin-top: 80px; */
   margin-top: 40px;
 
   @media screen and (min-width: 768px) {
