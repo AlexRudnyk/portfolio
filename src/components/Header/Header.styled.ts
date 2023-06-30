@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 import { ReactComponent as Burger } from "../../images/burger-menu-svgrepo-com.svg";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 interface IProps {
   open: boolean;
@@ -102,8 +102,12 @@ export const ModalListItem = styled.li`
   }
 `;
 
-export const ModalLink = styled(Link)`
+export const ModalLink = styled(NavLink)`
   font-size: 32px;
+
+  &.active {
+    font-weight: bold;
+  }
 
   &:visited {
     color: inherit;
