@@ -1,5 +1,10 @@
 import React from "react";
-import { HeaderContainer, HeaderSection } from "./Header.styled";
+import {
+  HeaderContainer,
+  HeaderSection,
+  BurgerMenu,
+  BurgerImg,
+} from "./Header.styled";
 import { Logo } from "../Logo";
 import { Nav } from "../Nav";
 import Media from "react-media";
@@ -20,6 +25,9 @@ export const Header: React.FC = () => {
                 <HeaderSection>
                   <HeaderContainer>
                     <Logo />
+                    <BurgerMenu onClick={() => console.log("Clicked!")}>
+                      <BurgerImg />
+                    </BurgerMenu>
                   </HeaderContainer>
                 </HeaderSection>
               </>

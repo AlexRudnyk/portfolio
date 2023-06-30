@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ReactComponent as Burger } from "../../images/burger-menu-svgrepo-com.svg";
 
 export const HeaderSection = styled.section`
   position: fixed;
@@ -15,13 +16,12 @@ export const HeaderSection = styled.section`
 
 export const HeaderContainer = styled.div`
   display: flex;
-  /* max-width: 450px; */
+  justify-content: space-between;
   margin-right: auto;
   margin-left: auto;
   padding: 10px 15px;
 
   @media screen and (min-width: 768px) {
-    justify-content: space-between;
     align-items: center;
     width: 738px;
   }
@@ -29,4 +29,15 @@ export const HeaderContainer = styled.div`
   @media screen and (min-width: 1280px) {
     width: 1250px;
   }
+`;
+
+export const BurgerMenu = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const BurgerImg = styled(Burger)`
+  width: 30px;
+  height: 30px;
 `;
