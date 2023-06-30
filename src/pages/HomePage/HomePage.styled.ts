@@ -5,6 +5,7 @@ import { ReactComponent as Arrow } from "../../images/ArrowVector.svg";
 export const HomePageSection = styled.section`
   width: 100%;
   height: 100vh;
+
   background-image: url(${heroImg});
   background-position: center;
   background-repeat: no-repeat;
