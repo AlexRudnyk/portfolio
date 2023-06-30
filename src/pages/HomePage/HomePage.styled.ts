@@ -13,10 +13,14 @@ export const HomePageSection = styled.section`
 
 export const HomePageContainer = styled.div`
   position: relative;
-  width: 1280px;
+  /* width: 1280px; */
   margin-right: auto;
   margin-left: auto;
   padding: 20px 15px;
+
+  @media screen and (max-width: 767.98px) {
+    max-width: 450px;
+  }
 
   @media screen and (min-width: 768px) {
     width: 738px;
@@ -28,29 +32,49 @@ export const HomePageContainer = styled.div`
 
 export const TitleWrapper = styled.div`
   background-color: white;
-  width: 364px;
+  /* width: 364px; */
   border-radius: 10px;
   padding: 8px;
+  margin-left: auto;
+  margin-right: auto;
 
   -webkit-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+
+  @media screen and (max-width: 767.98px) {
+    max-width: 364px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 364px;
+    margin-left: 0;
+    margin-right: 0;
+  }
 `;
 
 export const ImgWrapper = styled.div`
   margin-top: 50px;
   margin-bottom: 10px;
+  max-width: 380px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media screen and (min-width: 768px) {
+    width: 380px;
+    margin-right: 0;
+    margin-left: 0;
+  }
 `;
 
 export const ImgStyled = styled.img`
   display: block;
-  width: 380px;
-  height: 507px;
+  width: 100%;
+  /* height: 507px; */
   border-radius: 30px;
 `;
 
 export const TitleStyled = styled.h1`
-  font-size: 22px;
+  font-size: 18px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
@@ -65,10 +89,14 @@ export const TitleStyled = styled.h1`
       width: 100%;
     }
   }
+
+  @media screen and (min-width: 768px) {
+    font-size: 22px;
+  }
 `;
 
 export const TextStyled = styled.h2`
-  font-size: 22px;
+  font-size: 18px;
 
   -webkit-animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -95,6 +123,10 @@ export const TextStyled = styled.h2`
       transform: translateX(0);
       opacity: 1;
     }
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 22px;
   }
 `;
 

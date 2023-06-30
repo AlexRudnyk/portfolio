@@ -15,14 +15,14 @@ export const HeaderSection = styled.section`
 
 export const HeaderContainer = styled.div`
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 1280px;
+  /* max-width: 450px; */
   margin-right: auto;
   margin-left: auto;
   padding: 10px 15px;
 
   @media screen and (min-width: 768px) {
+    justify-content: space-between;
+    align-items: center;
     width: 738px;
   }
 
