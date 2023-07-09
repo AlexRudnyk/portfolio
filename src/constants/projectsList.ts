@@ -5,6 +5,7 @@ import iceCreamImg from "../images/icecream.jpg";
 import dogsImg from "../images/dogs.jpg";
 import todosImg from "../images/todos.jpg";
 import portfolioImg from "../images/portfolio.jpg";
+import phonebookImg from "../images/phonebook.jpg";
 
 export const projectsList = [
   {
@@ -87,6 +88,20 @@ export const projectsList = [
     delay: 2.5,
   },
   {
+    title: "Phonebook",
+    dev: "Individual project",
+    role: "",
+    img: `${phonebookImg}`,
+    techs:
+      "[JavaScript, React, Styled-components, Redux Toolkit, GitHub, Node.js, Express, Mongoose, MongoDB Compass, Vercel]",
+    description:
+      "Application to store, create, edit and delete contacts. You can easily find a needed contact in the phonebook, just start to type in a search field.",
+    demo: "https://alexrudnyk.github.io/Phonebook-front-back/",
+    code: "https://github.com/AlexRudnyk/Phonebook-front-back",
+    delay: 3,
+  },
+
+  {
     title: "Task planner",
     dev: "Individual project",
     role: "",
@@ -96,6 +111,6 @@ export const projectsList = [
       "Simple and necessary task planner application for everyone. Allows to add and delete tasks, toggle it's status. Tasks counter and filter by status available for your convenience.",
     demo: "https://alexrudnyk.github.io/Task-planner/",
     code: "https://github.com/AlexRudnyk/Task-planner",
-    delay: 3,
+    delay: 3.5,
   },
 ];
