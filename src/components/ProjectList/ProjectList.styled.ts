@@ -24,6 +24,8 @@ export const ProjectListItem = styled.li<IProps>`
 
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 1 * 30px) / 2);
+    margin-left: 0;
+    margin-right: 0;
 
     -webkit-animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
       both;
