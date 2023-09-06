@@ -6,8 +6,23 @@ import dogsImg from "../images/dogs.jpg";
 import todosImg from "../images/todos.jpg";
 import portfolioImg from "../images/portfolio.jpg";
 import phonebookImg from "../images/phonebook.jpg";
+import indiraImg from "../images/indira.jpg";
 
 export const projectsList = [
+  {
+    title: "Indira",
+    dev: "Individual project",
+    role: "",
+    img: `${indiraImg}`,
+    techs:
+      "[JavaScript, React, Styled-components, Redux Toolkit, Responsive / Adaptive design, GitHub, Node.js, Express, Mongoose, MongoDB Compass, Vercel]",
+    description:
+      "Commercial project online shop for soap producer to make sell process easier and more automated. There are options available as commenting a good, adding goods to a cart, chosing quantity in the cart and placing an order, which the seller will receive on his email.",
+    demo: "https://alexrudnyk.github.io/indira-shop/",
+    code: "https://github.com/AlexRudnyk/indira-shop",
+    delay: 0,
+  },
+
   {
     title: "Portfolio",
     dev: "Individual project",
@@ -19,7 +34,7 @@ export const projectsList = [
       "Routed SPA, where I introduced myself and showed some from my developing experience. You can find the information about me, my education and workplace, my individual projects as well as team ones (with my role specified), my skiils and a contact information. You're welcomed to use it",
     demo: "https://alexrudnyk.github.io/portfolio/",
     code: "https://github.com/AlexRudnyk/portfolio",
-    delay: 0,
+    delay: 0.5,
   },
 
   {
@@ -33,7 +48,7 @@ export const projectsList = [
       "Suitable application for easy family budget management. General information about your transactions, doughnut diagram of your expenses and online currency exchange rates.",
     demo: "https://alexrudnyk.github.io/wallet/",
     code: "https://github.com/AlexRudnyk/wallet",
-    delay: 0.5,
+    delay: 1,
   },
   {
     title: "Petly",
@@ -46,7 +61,7 @@ export const projectsList = [
       "The application for pet lovers. Adding and searching notices to buy/sell, give to good hands and lost/found animals.",
     demo: "https://fantusya.github.io/petly/",
     code: "https://github.com/AlexRudnyk/petly",
-    delay: 1,
+    delay: 1.5,
   },
   {
     title: "Filmoteka",
@@ -59,7 +74,7 @@ export const projectsList = [
       "Browse popular, highly rated and most anticipated films, including trailers, artwork, genres and popular reviews.",
     demo: "https://alexrudnyk.github.io/Filmoteka/",
     code: "https://github.com/AlexRudnyk/Filmoteka",
-    delay: 1.5,
+    delay: 2,
   },
   {
     title: "Ice creram",
@@ -72,7 +87,7 @@ export const projectsList = [
       "Online store IceCream provides irresistible and delicious products on the physical store and caters online ordering.",
     demo: "https://alexrudnyk.github.io/ice-cream-project/",
     code: "https://github.com/AlexRudnyk/ice-cream-project",
-    delay: 2,
+    delay: 2.5,
   },
   {
     title: "Dogs",
@@ -85,7 +100,7 @@ export const projectsList = [
       "Educational App for my daughter. Provides breed's details after choosing liked photo or breed option from select.",
     demo: "https://alexrudnyk.github.io/dogs/",
     code: "https://github.com/AlexRudnyk/dogs",
-    delay: 2.5,
+    delay: 3,
   },
   {
     title: "Phonebook",
@@ -98,7 +113,7 @@ export const projectsList = [
       "Application to store, create, edit and delete contacts. You can easily find a needed contact in the phonebook, just start to type in a search field.",
     demo: "https://alexrudnyk.github.io/Phonebook-front-back/",
     code: "https://github.com/AlexRudnyk/Phonebook-front-back",
-    delay: 3,
+    delay: 3.5,
   },
 
   {
@@ -111,6 +126,6 @@ export const projectsList = [
       "Simple and necessary task planner application for everyone. Allows to add and delete tasks, toggle it's status. Tasks counter and filter by status available for your convenience.",
     demo: "https://alexrudnyk.github.io/Task-planner/",
     code: "https://github.com/AlexRudnyk/Task-planner",
-    delay: 3.5,
+    delay: 4,
   },
 ];

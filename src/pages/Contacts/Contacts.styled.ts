@@ -34,8 +34,6 @@ export const ContactsContainer = styled.div`
     width: 1250px;
     flex-direction: row;
     justify-content: center;
-    margin-right: 0;
-    margin-left: 0;
   }
 `;
 
