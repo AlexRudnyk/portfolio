@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.00b60cee.css",
-    "main.js": "/portfolio/static/js/main.36aa4861.js",
+    "main.js": "/portfolio/static/js/main.30cbf8bc.js",
     "static/media/filmoteka.jpg": "/portfolio/static/media/filmoteka.4306d2f7e61f4e24d5b5.jpg",
     "static/media/dogs.jpg": "/portfolio/static/media/dogs.a5f365d11f4a2c0d02a1.jpg",
     "static/media/digitization-5140074_1280.jpg": "/portfolio/static/media/digitization-5140074_1280.681360c46e7a813cd92d.jpg",
@@ -9,6 +9,7 @@
     "static/media/digitization-5140071_1280.jpg": "/portfolio/static/media/digitization-5140071_1280.6db13b193502794797d6.jpg",
     "static/media/Oleksandr Rudnyk.jpg": "/portfolio/static/media/Oleksandr Rudnyk.abfb3f685e9478c4682d.jpg",
     "static/media/portfolio.jpg": "/portfolio/static/media/portfolio.144540bd048c9bda9e65.jpg",
+    "static/media/indira.jpg": "/portfolio/static/media/indira.f0af79edc59018d2d8a0.jpg",
     "static/media/icecream.jpg": "/portfolio/static/media/icecream.b5f8305efa3bfabf2d35.jpg",
     "static/media/petly.jpg": "/portfolio/static/media/petly.11ec6c8f3191aff37fa8.jpg",
     "static/media/phonebook.jpg": "/portfolio/static/media/phonebook.a9fa9748e003c57ff712.jpg",
@@ -27,10 +28,10 @@
     "static/media/burger-menu-svgrepo-com.svg": "/portfolio/static/media/burger-menu-svgrepo-com.fc12fbd678bea2ce4ec9524cbe12a170.svg",
     "static/media/mobile.svg": "/portfolio/static/media/mobile.cb87669713b24f4001474ef251cd8655.svg",
     "main.00b60cee.css.map": "/portfolio/static/css/main.00b60cee.css.map",
-    "main.36aa4861.js.map": "/portfolio/static/js/main.36aa4861.js.map"
+    "main.30cbf8bc.js.map": "/portfolio/static/js/main.30cbf8bc.js.map"
   },
   "entrypoints": [
     "static/css/main.00b60cee.css",
-    "static/js/main.36aa4861.js"
+    "static/js/main.30cbf8bc.js"
   ]
 }
