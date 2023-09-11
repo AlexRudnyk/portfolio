@@ -8,6 +8,14 @@ import {
   FormBtn,
 } from "./ContactForm.styled";
 
+declare var process: {
+  env: {
+    REACT_APP_SERVICE_ID: string;
+    REACT_APP_TEMPLATE_ID: string;
+    REACT_APP_PUBLIC_KEY: string;
+  };
+};
+
 export const ContactForm = () => {
   const form = useRef<any>();
 
@@ -16,10 +24,10 @@ export const ContactForm = () => {
 
     emailjs
       .sendForm(
-        "service_rnmr2p8",
-        "template_sidtxro",
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         form.current,
-        "M_K-bPQaxmIooKAFt"
+        process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
         (result) => {
