@@ -1,5 +1,6 @@
 import React from "react";
 import certificate from "../../images/Oleksandr Rudnyk.jpg";
+import udemyCertificate from "../../images/Udemy.jpg";
 import {
   SkillsContainer,
   SkillsSection,
@@ -21,7 +22,9 @@ export const Skills: React.FC = () => {
           <SkillsTitle>Tech skills</SkillsTitle>
           <SkillsList>
             <SkillsListItem>JavaScript</SkillsListItem>
+            <SkillsListItem>TypeScript</SkillsListItem>
             <SkillsListItem>React</SkillsListItem>
+            <SkillsListItem>Next.js</SkillsListItem>
             <SkillsListItem>Redux Toolkit</SkillsListItem>
             <SkillsListItem>Styled-components</SkillsListItem>
             <SkillsListItem>NodeJS</SkillsListItem>
@@ -52,10 +55,16 @@ export const Skills: React.FC = () => {
           </SkillsList>
         </SkillsWrapperTwo>
         <SkillsWrapperThree>
-          <SkillsTitle>Certificates</SkillsTitle>
           <ul>
             <li>
               <CertificateImg src={certificate} alt="certificate" />
+            </li>
+          </ul>
+        </SkillsWrapperThree>
+        <SkillsWrapperThree>
+          <ul>
+            <li>
+              <CertificateImg src={udemyCertificate} alt="certificate" />
             </li>
           </ul>
         </SkillsWrapperThree>

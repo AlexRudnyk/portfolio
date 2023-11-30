@@ -7,10 +7,6 @@ export const SkillsSection = styled.section`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  @media screen and (min-width: 1280px) {
-    height: 100vh;
-  }
 `;
 
 export const SkillsContainer = styled.div`
@@ -28,6 +24,7 @@ export const SkillsContainer = styled.div`
   }
   @media screen and (min-width: 1280px) {
     flex-direction: row;
+    flex-wrap: wrap;
     width: 1250px;
     gap: 60px;
   }
@@ -49,7 +46,7 @@ export const SkillsWrapper = styled.div`
     margin-left: auto;
     margin-right: auto;
 
-    -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    /* -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
       both;
     animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 
@@ -76,7 +73,7 @@ export const SkillsWrapper = styled.div`
         transform: translateX(0);
         opacity: 1;
       }
-    }
+    } */
   }
   @media screen and (min-width: 1280px) {
     height: 520px;
@@ -139,7 +136,7 @@ export const SkillsList = styled.ol``;
 
 export const SkillsListItem = styled.li`
   list-style-type: disc;
-  font-size: 22px;
+  font-size: 18px;
 
   &:not(:last-child) {
     margin-bottom: 10px;
