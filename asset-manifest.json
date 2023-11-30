@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.00b60cee.css",
-    "main.js": "/portfolio/static/js/main.05ff39d1.js",
+    "main.js": "/portfolio/static/js/main.a072d4ac.js",
     "static/media/filmoteka.jpg": "/portfolio/static/media/filmoteka.4306d2f7e61f4e24d5b5.jpg",
     "static/media/dogs.jpg": "/portfolio/static/media/dogs.a5f365d11f4a2c0d02a1.jpg",
     "static/media/digitization-5140074_1280.jpg": "/portfolio/static/media/digitization-5140074_1280.681360c46e7a813cd92d.jpg",
@@ -16,7 +16,10 @@
     "static/media/web.jpg": "/portfolio/static/media/web.6779047749e5d523aa76.jpg",
     "static/media/wallet.jpg": "/portfolio/static/media/wallet.208f52bc4673e1aca76d.jpg",
     "static/media/todos.jpg": "/portfolio/static/media/todos.e0c99b6f7d33e628beac.jpg",
+    "static/media/Udemy.jpg": "/portfolio/static/media/Udemy.61d1cb49f1beefed67f6.jpg",
+    "static/media/indira-app.jpg": "/portfolio/static/media/indira-app.673ed65305f0416abe26.jpg",
     "static/media/photo_2023-06-26_08-56-00.jpg": "/portfolio/static/media/photo_2023-06-26_08-56-00.67b49b13233ce7fa2293.jpg",
+    "static/media/cars-showroom.jpg": "/portfolio/static/media/cars-showroom.19f656fff9d8d96311bb.jpg",
     "static/media/binary-1536646_1280.jpg": "/portfolio/static/media/binary-1536646_1280.fc95dc9ee62820ab137a.jpg",
     "static/media/ArrowVector.svg": "/portfolio/static/media/ArrowVector.88d8c836f928921e7f384ff9a0b3bd8f.svg",
     "static/media/github.svg": "/portfolio/static/media/github.5531be85d7a8d6f333e5c7136944a022.svg",
@@ -28,10 +31,10 @@
     "static/media/burger-menu-svgrepo-com.svg": "/portfolio/static/media/burger-menu-svgrepo-com.fc12fbd678bea2ce4ec9524cbe12a170.svg",
     "static/media/mobile.svg": "/portfolio/static/media/mobile.cb87669713b24f4001474ef251cd8655.svg",
     "main.00b60cee.css.map": "/portfolio/static/css/main.00b60cee.css.map",
-    "main.05ff39d1.js.map": "/portfolio/static/js/main.05ff39d1.js.map"
+    "main.a072d4ac.js.map": "/portfolio/static/js/main.a072d4ac.js.map"
   },
   "entrypoints": [
     "static/css/main.00b60cee.css",
-    "static/js/main.05ff39d1.js"
+    "static/js/main.a072d4ac.js"
   ]
 }
