@@ -23,10 +23,10 @@ export const SkillsContainer = styled.div`
     width: 738px;
   }
   @media screen and (min-width: 1280px) {
-    flex-direction: row;
-    flex-wrap: wrap;
     width: 1250px;
-    gap: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
   }
 `;
 
@@ -41,72 +41,15 @@ export const SkillsWrapper = styled.div`
   -moz-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1279.98px) {
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-
-    /* -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-      both;
-    animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-
-    @-webkit-keyframes slide-in-left {
-      0% {
-        -webkit-transform: translateX(-1000px);
-        transform: translateX(-1000px);
-        opacity: 0;
-      }
-      100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        opacity: 1;
-      }
-    }
-    @keyframes slide-in-left {
-      0% {
-        -webkit-transform: translateX(-1000px);
-        transform: translateX(-1000px);
-        opacity: 0;
-      }
-      100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        opacity: 1;
-      }
-    } */
   }
   @media screen and (min-width: 1280px) {
     height: 520px;
-    flex-basis: calc((100% - 2 * 60px) / 3);
-
-    -webkit-animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-      both;
-    animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-
-    @-webkit-keyframes slide-in-top {
-      0% {
-        -webkit-transform: translateY(-1000px);
-        transform: translateY(-1000px);
-        opacity: 0;
-      }
-      100% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-        opacity: 1;
-      }
-    }
-    @keyframes slide-in-top {
-      0% {
-        -webkit-transform: translateY(-1000px);
-        transform: translateY(-1000px);
-        opacity: 0;
-      }
-      100% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-        opacity: 1;
-      }
-    }
+    margin-left: 0;
+    margin-right: 0;
   }
 `;
 
